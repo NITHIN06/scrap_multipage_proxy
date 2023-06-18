@@ -53,7 +53,6 @@ while len(df['links'])<10000 or next_url:
         url = pre_link+next_url['href']
     # print(df.shape[0])
 
-    break
 df['channel'] = link
 print(df)
 df['links'] = df['links'][:10000]
