@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-api_key = "4H7QVNWEUEZ6441Q9WNG4E0NM7SVQNVNO0FUXE4W0YTYP4CTYLZGYK6IU11MKNDMZKSJ8RGVVLDNY0K4"
+api_key = ""
 HEADERS = ({'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
             'Accept-Language':'en-US, en;q=0.5', 
             "Authorization": f"Bearer {api_key}"
